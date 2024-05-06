@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-double Const (void){
+double Const (double x){
     return (5);
 }
 
@@ -13,7 +13,7 @@ double LinearFunc (double x){
 
 double SquareFunc (double x){
     double a = -1;
-    double b = 0;
+    double b = 4;
     double c = 0.5;
     return (a*x*x + b*x + c);
 }
@@ -21,5 +21,6 @@ double SquareFunc (double x){
 double TrigFunc (double x){
     return (sin(x));
 }
+
 
 
